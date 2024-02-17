@@ -4,13 +4,13 @@ nav:
   - Home: index.md
   - Page-2: page2.md
 
-site_author: James Willett
+site_author: Mohammed Abdullah
 site_description: >-
-  Description goes here!
+  Knowledge Base Article
 
 # Repository
-repo_name: james-willett/material-mkdocs-tutorial
-repo_url: https://github.com/james-willett/material-mkdocs-tutorial
+# repo_name: james-willett/material-mkdocs-tutorial
+# repo_url: https://github.com/james-willett/material-mkdocs-tutorial
 
 # Configuration
 theme:
