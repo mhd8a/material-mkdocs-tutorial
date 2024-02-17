@@ -5,9 +5,10 @@ nav:
   - Page-2: page2.md
   - Fossid : Fossid.md
   - Publishing File: Publish-a-File.md
-  - ROS: ROS.md
-  - Sonarqube: Sonarqube.md
-
+  - DevOps Tools:
+      - ROS : ROS.md
+      - Sonarqube : Sonarqube.md
+      
 site_author: Mohammed Abdullah
 site_description: >-
   Knowledge Base Article
