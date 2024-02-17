@@ -6,8 +6,8 @@ nav:
   - Fossid : Fossid.md
   - Publishing File: Publish-a-File.md
   - DevOps Tools:
-      - ROS : ROS.md
-      - Sonarqube : Sonarqube.md
+      - ROS: ROS.md
+      - Sonarqube: Sonarqube.md
       
 site_author: Mohammed Abdullah
 site_description: >-
