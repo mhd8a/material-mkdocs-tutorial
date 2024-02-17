@@ -1,7 +1,7 @@
 site_name: MkDocs Tutorial Documentation
 
 nav:
-  - Home: index.md
+  - Home: Home.md
   - Page-2: page2.md
   - Fossid : Fossid.md
   - Publishing File: Publish-a-File.md
