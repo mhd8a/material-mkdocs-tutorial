@@ -1,0 +1,28 @@
+<footer class="md-footer" style="display: none;">
+    <div class="md-footer-nav">
+        {% if config.extra.footer_links %}
+            <nav class="md-footer-nav__list">
+                {% for link in config.extra.footer_links %}
+                    <a href="{{ link.url }}" class="md-footer-nav__link" target="_blank" rel="noopener">{{ link.text }}</a>
+                {% endfor %}
+            </nav>
+        {% endif %}
+        <p class="md-footer-nav__text">
+            {% if config.extra.github_user and config.extra.repo_name %}
+                {% if config.extra.github_user_link %}
+                    <a href="{{ config.extra.github_user_link }}" class="md-footer-nav__link" target="_blank" rel="noopener">{{ config.extra.github_user }}</a> / 
+                {% else %}
+                    {{ config.extra.github_user }} /
+                {% endif %}
+                {% if config.extra.repo_link %}
+                    <a href="{{ config.extra.repo_link }}" class="md-footer-nav__link" target="_blank" rel="noopener">{{ config.extra.repo_name }}</a>
+                {% else %}
+                    {{ config.extra.repo_name }}
+                {% endif %}
+            {% else %}
+                <a href="https://github.com/squidfunk/mkdocs-material" class="md-footer-nav__link" target="_blank" rel="noopener">Material for MkDocs</a> /
+                &copy; 2017 - {{ now.year }} by <a href="https://squidfunk.github.io" class="md-footer-nav__link" target="_blank" rel="noopener">Martin Donath</a>
+            {% endif %}
+        </p>
+    </div>
+</footer>
