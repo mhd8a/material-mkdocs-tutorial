@@ -2,12 +2,12 @@ site_name: Knowledge Base Doumentation
 
 nav:
   - Home: Home.md
-  - Page-2: page2.md
   - Fossid : Fossid.md
   - Publishing File: Publish-a-File.md
-  - DevOps Tools:
+  - Inegration :
       - ROS: ROS.md
       - Sonarqube: Sonarqube.md
+  - Troubleshooting :
       
 site_author: Mohammed Abdullah
 site_description: >-
