@@ -28,6 +28,7 @@ theme:
     - search.suggest
     - search.highlight
     - content.tabs.link
+    - navigation.instant
   language: en
   palette:
     - scheme: default
