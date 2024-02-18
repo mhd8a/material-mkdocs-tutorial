@@ -7,7 +7,7 @@ Since ROS was started in 2007, a lot has changed in the robotics and ROS communi
 This site contains the documentation for ROS 2. If you are looking for ROS 1 documentation, check out the [ROS wiki](https://wiki.ros.org/).
 
 
-## Installation
+# Installation
 Options for installing ROS 2 Iron Irwin:
 
 Binary packages[](https://docs.ros.org/en/iron/Installation.html#binary-packages)
