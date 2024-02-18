@@ -18,7 +18,7 @@ site_description: >-
 
 # Configuration
 theme:
-  custom_dir: custom_template
+  custom_dir: ./docs/custom_template
   name: material
   features:
     - navigation.tabs
