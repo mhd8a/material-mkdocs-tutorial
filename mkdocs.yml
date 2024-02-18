@@ -2,8 +2,8 @@ site_name: Knowledge Base Doumentation
 
 nav:
   - Home: Home.md
-  - Fossid : Fossid.md
-  - Publishing File: Publish-a-File.md
+  - Fossid: Fossid.md
+  - Publish a File: Publish a File.md
   - Inegration :
       - ROS: ROS.md
       - Sonarqube: Sonarqube.md
